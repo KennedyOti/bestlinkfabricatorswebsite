@@ -764,3 +764,315 @@ img {
     height: 40px;
   }
 }
+
+/* Team Section */
+.team-section {
+  background: linear-gradient(180deg, #ffffff, #f8f9fa);
+}
+
+.team-card {
+  background-color: var(--light-color);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  margin: 15px;
+}
+
+.team-card:hover {
+  transform: translateY(-5px);
+}
+
+.team-card img {
+  width: 120px;
+  height: 120px;
+  border: 4px solid var(--primary-color);
+  object-fit: cover;
+}
+
+.team-card h4 {
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+
+.team-card p {
+  font-size: 16px;
+  color: var(--text-color);
+}
+
+.team-slider .slick-slide {
+  padding: 0 10px;
+}
+
+.team-slider .slick-dots li button:before {
+  font-size: 12px;
+  color: var(--primary-color);
+}
+
+.team-slider .slick-dots li.slick-active button:before {
+  color: var(--primary-color);
+}
+
+* Service Highlights Section */ .service-highlights {
+  background: linear-gradient(180deg, #ffffff, #f8f9fa);
+}
+
+.service-slide {
+  padding: 0 15px;
+}
+
+.service-card {
+  background-color: var(--light-color);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-12px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.service-img {
+  height: 240px;
+  overflow: hidden;
+}
+
+.service-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.5s ease;
+}
+
+.service-card:hover .service-img img {
+  transform: scale(1.12);
+}
+
+.service-content {
+  padding: 25px;
+}
+
+.service-content h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.service-content p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.service-slider .slick-dots li button:before {
+  font-size: 12px;
+  color: var(--primary-color);
+}
+
+.service-slider .slick-dots li.slick-active button:before {
+  color: var(--primary-color);
+}
+
+/* Detailed Services Section */
+.service-detail-card {
+  transition: all 0.3s ease;
+}
+
+.service-detail-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.service-detail-card img {
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.service-detail-card h3 {
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+
+.service-detail-card p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* Project Highlights Section */
+.project-highlights {
+  background: linear-gradient(180deg, #ffffff, #f8f9fa);
+}
+
+.project-slide {
+  padding: 0 15px;
+}
+
+.project-slider .slick-dots li button:before {
+  font-size: 12px;
+  color: var(--primary-color);
+}
+
+.project-slider .slick-dots li.slick-active button:before {
+  color: var(--primary-color);
+}
+
+/* All Projects Section */
+.project-desc {
+  font-size: 16px;
+  color: var(--text-color);
+  margin-top: 10px;
+}
+
+/* Furniture Showcase Section */
+.furniture-showcase {
+  background: linear-gradient(180deg, #ffffff, #f8f9fa);
+}
+
+.furniture-slide {
+  padding: 0 15px;
+}
+
+.furniture-card {
+  background-color: var(--light-color);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.furniture-card:hover {
+  transform: translateY(-12px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.furniture-img {
+  height: 240px;
+  overflow: hidden;
+  position: relative;
+}
+
+.furniture-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.5s ease;
+}
+
+.furniture-card:hover .furniture-img img {
+  transform: scale(1.12);
+}
+
+.furniture-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(232, 89, 0, 0.85);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.furniture-card:hover .furniture-overlay {
+  opacity: 1;
+}
+
+.furniture-info {
+  padding: 25px;
+}
+
+.furniture-info h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.furniture-info p {
+  font-size: 16px;
+  color: var(--text-color);
+  margin-bottom: 15px;
+}
+
+.furniture-slider .slick-dots li button:before {
+  font-size: 12px;
+  color: var(--primary-color);
+}
+
+.furniture-slider .slick-dots li.slick-active button:before {
+  color: var(--primary-color);
+}
+
+/* Contact Form Section */
+.contact-form-card {
+  transition: all 0.3s ease;
+}
+
+.contact-form-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.contact-form-card .form-control,
+.contact-form-card .form-select {
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid var(--gray-color);
+  transition: all 0.3s ease;
+}
+
+.contact-form-card .form-control:focus,
+.contact-form-card .form-select:focus {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 8px rgba(232, 89, 0, 0.2);
+}
+
+.contact-form-card .form-label {
+  font-weight: 500;
+  color: var(--secondary-color);
+}
+
+/* Contact Details Section */
+.contact-card {
+  transition: all 0.3s ease;
+}
+
+.contact-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.contact-card h4 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.contact-card p {
+  font-size: 16px;
+  color: var(--text-color);
+  margin: 0;
+}
+
+.contact-card a {
+  color: var(--primary-color);
+  transition: all 0.3s ease;
+}
+
+.contact-card a:hover {
+  color: var(--secondary-color);
+}
+
+/* Map Section */
+.map-container {
+  overflow: hidden;
+  height: 400px;
+}
+
+.map-container img,
+.map-container iframe {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
